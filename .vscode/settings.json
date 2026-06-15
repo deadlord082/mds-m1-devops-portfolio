@@ -1,15 +1,15 @@
 {
   "workbench.colorCustomizations": {
-    "activityBar.background": "#580D3B",
-    "titleBar.activeBackground": "#7B1252",
+    "activityBar.background": "#8f0404",
+    "titleBar.activeBackground": "#bf0707",
     "titleBar.activeForeground": "#FFFCFD",
-    "titleBar.inactiveBackground": "#580D3B",
+    "titleBar.inactiveBackground": "#8f0404",
     "titleBar.inactiveForeground": "#FFFCFD",
-    "statusBar.background": "#580D3B",
+    "statusBar.background": "#8f0404",
     "statusBar.foreground": "#FFFCFD",
-    "statusBar.debuggingBackground": "#580D3B",
+    "statusBar.debuggingBackground": "#8f0404",
     "statusBar.debuggingForeground": "#FFFCFD",
-    "statusBar.noFolderBackground": "#580D3B",
+    "statusBar.noFolderBackground": "#8f0404",
     "statusBar.noFolderForeground": "#FFFCFD"
   },
   "prisma.pinToPrisma6": false
