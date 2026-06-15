@@ -11,6 +11,18 @@ env:
   image_name: ${{ github.repository }}
 
 jobs:
+  security:
+    name: security check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v6
+
+      - name: Run security checks
+        uses: snyk/actions/node@master
+        env:
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+
   build-and-push:
     name: build-and-push docker image
     runs-on: ubuntu-latest
