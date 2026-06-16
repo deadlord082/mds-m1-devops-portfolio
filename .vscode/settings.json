@@ -12,5 +12,9 @@
     "statusBar.noFolderBackground": "#8f0404",
     "statusBar.noFolderForeground": "#FFFCFD"
   },
-  "prisma.pinToPrisma6": false
+  "prisma.pinToPrisma6": false,
+  "sonarlint.connectedMode.project": {
+    "connectionId": "MDS sonar qube",
+    "projectKey": "deadlord082_mds-m1-devops-portfolio_06f583ba-4746-4a5e-8061-6d67cb029478"
+  }
 }
