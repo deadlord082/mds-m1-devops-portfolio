@@ -21,7 +21,7 @@ jobs:
 
   test:
     uses: ./.github/workflows/test.yml
-    # needs: [security]
+    needs: [security]
     secrets: inherit
 
   build:
